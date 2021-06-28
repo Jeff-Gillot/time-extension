@@ -1,8 +1,8 @@
-##Time extensions
+## Time extensions
 [![](https://jitpack.io/v/Jeff-Gillot/time-extension.svg)](https://jitpack.io/#Jeff-Gillot/time-extension)
 [![](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-###How to use
+### How to use
 
 ```kotlin
 
@@ -26,7 +26,7 @@ val threeHours = 3.hours()
 val threeHours = Duration.ofHours(3)
 ```
 
-###Installation
+### Installation
 [Full installation guide](https://jitpack.io/#Jeff-Gillot/time-extension/1.0.0)
 
 Add the JitPack repository to your `build.gradle`:
@@ -44,7 +44,7 @@ dependencies {
     implementation 'com.github.Jeff-Gillot:time-extension:1.0.0'
 }
 ```
-###Licence
+### Licence
 Copyright 2021 Jean-François Gillot
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
