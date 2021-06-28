@@ -5,25 +5,29 @@
 ### How to use
 
 ```kotlin
-
+// Simple usage
 val oneSecond = 1.second()
 val tenSeconds = 10.seconds()
 
 val twoDaysThreeHours = 2.days() + 3.hours()
 
 val days = 3.days()
-val hours = 3.hours()
-val minutes = 3.minutes()
-val seconds = 3.seconds()
-val milliseconds = 3.milliseconds()
-val nanoseconds = 3.nanoseconds()
+val hours = 6.hours()
+val minutes = 12.minutes()
+val seconds = 42.seconds()
+val milliseconds = 2.milliseconds()
+val nanoseconds = 99.nanoseconds()
 
-//Also works with doubles (be careful about rounding errors)
+// Also works with doubles (be careful about rounding errors)
 val ninetyMinutes = 1.5.hours()
 
-//It is just a shortcut to java.time.Duration
+// It is just a shortcut to java.time.Duration
 val threeHours = 3.hours()
 val threeHours = Duration.ofHours(3)
+
+// Singular and plural available
+val minutes = 66.minutes()
+val minute = 1.minute()
 ```
 
 ### Installation
