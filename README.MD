@@ -27,8 +27,6 @@ val threeHours = Duration.ofHours(3)
 ```
 
 ### Installation
-[Full installation guide](https://jitpack.io/#Jeff-Gillot/time-extension/1.0.0)
-
 Add the JitPack repository to your `build.gradle`:
 ```groovy
 allprojects {
@@ -44,6 +42,8 @@ dependencies {
     implementation 'com.github.Jeff-Gillot:time-extension:1.0.0'
 }
 ```
+[https://jitpack.io](https://jitpack.io/#Jeff-Gillot/time-extension/1.0.0)
+
 ### Licence
 Copyright 2021 Jean-François Gillot
 
