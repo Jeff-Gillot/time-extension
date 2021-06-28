@@ -1,3 +1,5 @@
+import java.net.URI
+
 plugins {
     kotlin("jvm") version "1.5.20"
     `maven-publish`
@@ -11,6 +13,9 @@ java {
 
 repositories {
     mavenCentral()
+    maven {
+        this.url = URI("https://jitpack.io")
+    }
 }
 
 kotlin {
