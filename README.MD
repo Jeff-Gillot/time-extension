@@ -46,7 +46,7 @@ dependencies {
     implementation 'com.github.Jeff-Gillot:time-extension:1.0.0'
 }
 ```
-[https://jitpack.io](https://jitpack.io/#Jeff-Gillot/time-extension/1.0.0)
+[jitpack.io](https://jitpack.io/#Jeff-Gillot/time-extension/1.0.0)
 
 ### Licence
 Copyright 2021 Jean-François Gillot
