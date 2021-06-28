@@ -36,7 +36,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "be.delta.flow"
             artifactId = "time-extension"
-            version = "0.1"
+            version = "0.1-SNAPSHOT"
 
             from(components["java"])
         }
